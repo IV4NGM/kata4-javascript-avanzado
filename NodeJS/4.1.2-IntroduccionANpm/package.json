@@ -1,0 +1,17 @@
+{
+  "name": "4.1.2-introduccionanpm",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de prueba para aprender npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "empezar": "node index.js",
+    "autorun": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "IVANGM",
+  "license": "ISC",
+  "dependencies": {
+    "number2texto": "^0.0.9"
+  }
+}
