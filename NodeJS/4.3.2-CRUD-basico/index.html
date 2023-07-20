@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD básico</title>
+</head>
+<body>
+    <h1>CRUD básico</h1>
+    <label for="nombreAlumnoNuevo">Nombre: </label>
+    <input type="text" id="nombreAlumnoNuevo">
+    <br>
+    <label for="boletaAlumnoNuevo">Boleta: </label>
+    <input type="number" id="boletaAlumnoNuevo">
+    <br>
+    <label for="edadAlumnoNuevo">Edad: </label>
+    <input type="number" id="edadAlumnoNuevo">
+    <br>
+    <label for="semestreAlumnoNuevo">Semestre: </label>
+    <input type="number" id="semestreAlumnoNuevo">
+    <br>
+    <button onclick="crear()">Crear alumno nuevo</button>
+    
+    <hr>
+    <h2>Buscar alumno</h2>
+    <label for="idAlumnoBuscar">ID Alumno: </label>
+    <input type="text" id="idAlumnoBuscar">
+    <br>
+    <button onclick="buscar()">Buscar Alumno</button>
+
+    <p>Nombre: <span id="nombreAlumnoRegistro"> - </span></p>
+    <p>Boleta: <span id="boletaAlumnoRegistro"> - </span></p>
+    <p>Edad: <span id="edadAlumnoRegistro"> - </span></p>
+    <p>Semestre: <span id="semestreAlumnoRegistro"> - </span></p>
+
+    <hr>
+    <h2>Eliminar alumno</h2>
+    <label for="idAlumnoEliminar">ID Alumno: </label>
+    <input type="text" id="idAlumnoEliminar">
+    <br>
+    <button onclick="eliminar()">Eliminar Alumno</button>
+
+    <hr>
+    <h2>Modificar alumno</h2>
+    <label for="idAlumnoModificar">ID de alumno: </label>
+    <input type="text" id="idAlumnoModificar">
+    <br>
+    <label for="nombreAlumnoModificar">Nombre: </label>
+    <input type="text" id="nombreAlumnoModificar">
+    <br>
+    <label for="boletaAlumnoModificar">Boleta: </label>
+    <input type="number" id="boletaAlumnoModificar">
+    <br>
+    <label for="edadAlumnoModificar">Edad: </label>
+    <input type="number" id="edadAlumnoModificar">
+    <br>
+    <label for="semestreAlumnoModificar">Semestre: </label>
+    <input type="number" id="semestreAlumnoModificar">
+    <br>
+    <button onclick="modificar()">Modificar alumno</button>
+    <script src="./script.js"></script>
+</body>
+</html>
